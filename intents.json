@@ -4,29 +4,38 @@
 "responses": ["Hello!", "Hey!", "What can I do for you?"]
 },
 
-    {"tag": "greetings",
-"patterns": ["hello", "hey","hi","greetings","what's up?", "how is it going?"],
-"responses": ["Hello!", "Hey!", "What can I do for you?"]
+    {"tag": "goodbye",
+"patterns": ["cya","mabadae","tuchekiane", "see you later", "goodbye", "I am leaving", "Have a good day", "bye", "ciao", "see ya"],
+"responses": ["Sad to see you leave :(", "Talk to you later", "Goodbye"]
 },
 
-    {"tag": "greetings",
-"patterns": ["hello", "hey","hi","greetings","what's up?", "how is it going?"],
-"responses": ["Hello!", "Hey!", "What can I do for you?"]
+
+    {"tag": "age",
+"patterns": ["How old are you","we mzee uko na miaka ngapi", "how old is Julius", "what is your age", "age?"],
+"responses": ["My creator JulioTech is 26 years!", "26 years old!"]
 },
 
-    {"tag": "greetings",
-"patterns": ["hello", "hey","hi","greetings","what's up?", "how is it going?"],
-"responses": ["Hello!", "Hey!", "What can I do for you?"]
+
+    {"tag": "name",
+"patterns": ["what is your name", "what should i call you", "so, unaitwa", "who are you", "can you tell me your name"],
+"responses": ["My name is Midega", "I'm Midega the assistant of JulioTech", "I am Midega"]
 },
 
-    {"tag": "greetings",
-"patterns": ["hello", "hey","hi","greetings","what's up?", "how is it going?"],
-"responses": ["Hello!", "Hey!", "What can I do for you?"]
+
+    {"tag": "Contacts",
+"patterns": ["how can I reach you guys", "give me your contacts", "How can I reach you"],
+"responses": ["Kindly reach us via email: 'midegajulius3@gmail.com' or call/whatsapp: +254796117685"]
 },
 
-    {"tag": "greetings",
-"patterns": ["hello", "hey","hi","greetings","what's up?", "how is it going?"],
-"responses": ["Hello!", "Hey!", "What can I do for you?"]
+
+    {"tag": "services",
+"patterns": ["so what can i get from julius", "what do you offer", "provide the programming facilities that get from you"],
+"responses": ["JulioTech offers services like:data analysis, automaion, trading bots, algorithms, data modeliing, financial analysis and many other data storytelling services"]
+},
+    {"tag": "Hours",
+"patterns": ["when are you guys open", "what are your hours", "hours of operation?"],
+"responses": ["we are always available 24/7"]
 }
+
 
 ]}

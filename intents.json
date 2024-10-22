@@ -18,7 +18,7 @@
 
     {"tag": "name",
 "patterns": ["what is your name", "what should i call you", "so, unaitwa", "who are you", "can you tell me your name"],
-"responses": ["My name is Midega", "I'm Midega the assistant of JulioTech", "I am Midega"]
+"responses": ["My name is Midega", "I'm the assistant of JulioTech", "I am Midega"]
 },
 
 

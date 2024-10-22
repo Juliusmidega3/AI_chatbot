@@ -81,10 +81,10 @@ sgd = SGD(learning_rate=0.01, decay=1e-6, momentum=0.9, nesterov=True)
 model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
 
 # Train the model
-model.fit(train_x, train_y, epochs=200, batch_size=5, verbose=1)
+hist = model.fit(train_x, train_y, epochs=200, batch_size=5, verbose=1)
 
 # Save the model
-model.save('chatbot_model.keras')  # or use 'chatbot_model.h5' for HDF5 format
+model.save('chatbot_model.h5', hist)  # or use 'chatbot_model.h5' for HDF5 format
 
 print('Model training completed and saved.')
 
